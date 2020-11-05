@@ -40,9 +40,10 @@ body {
     margin-right: auto;
 }
 
-img {
-    padding: 1rem;
-    padding-left: 20rem;
+.container img {
+    padding: 2%;
+    width: 33%;
+    height: auto;
 }
 
 nav {
