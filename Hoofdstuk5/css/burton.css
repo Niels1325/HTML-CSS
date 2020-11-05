@@ -43,6 +43,10 @@ img.visual {
     margin-bottom: 13px;
 }
 
+.artikels h1 {
+    margin-bottom: 2rem;
+}
+
 article {
     display: inline-block;
     width: 33%;
