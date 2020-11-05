@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.form-group {
+    width: 375px;
+    padding:20px;
+    vertical-align: top;
+}
+
+.form-select {
+    width: 375px;
+    padding:20px;
+}
+
+.form-date {
+    width: 375px;
+    padding:20px;
+}
+
+.form-groupbtn {
+    margin-left: 4rem;
+}
+
+.input {
+    float:right;
+    width: 200px;
+}
+
+.vrouwradio {
+    margin-left: 4rem;
+}
+
+textarea {
+    resize: none;
+    width: 500px;
+}
+
+.form-omschrijving {
+    margin-left: 2px;
+}
