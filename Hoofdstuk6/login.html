@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
+<div class="wrapper">
 <form action="http://www.savatarian.com/html5/form.php" method="get">
         <div class="form-group">
             <h2>Burton Education</h2>
@@ -50,18 +51,17 @@
     </div>
     <div class="form-check">
         <label for="lekkereten" name="lekkereten">Lekker eten:</label>
-        <input type="checkbox" name="sperciebonen" value="sperciebonen">Sperciebonen
-        <input type="checkbox" name="aardappelen" value="aardappelen">Aardappelen
-        <input type="checkbox" name="hamburger" value="hamburger">Hamburger
+        <input class="box b1" type="checkbox" name="sperciebonen" value="sperciebonen">Sperciebonen<br>
+        <input class="box b2" type="checkbox" name="aardappelen" value="aardappelen">Aardappelen<br>
+        <input class="box b3" type="checkbox" name="hamburger" value="hamburger">Hamburger
     </div>
-    <div class="form-group">
-        <input class="input" type="submit" name="knop" placeholder="Annuleer" />
-    </div>
-    <div class="form-group">
-        <input class="input" type="submit" name="knop" placeholder="OK" />
+    <div class="buttons">
+        <input class="cancel-btn" type="submit" name="knop" value="Annuleer" />
+        <input class="ok-btn" type="submit" name="knop" value="OK" />
     </div>
 
 
 </form>
+</div><!--Wrapper-->
 </body>
 </html>
